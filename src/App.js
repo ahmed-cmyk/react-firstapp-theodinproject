@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <div className="main-body">
-        <h1>To-Do List</h1>
+        <h1>Task List</h1>
         <div className="form">
           <input type="text" onChange={inputTextHandler} value={inputText} />
           <button type="submit" onClick={addTask}>Add</button>
