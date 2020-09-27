@@ -16,7 +16,7 @@ function App() {
     console.log(inputText);
     setTask([
       ...tasks,
-      {text: inputText, id: Math.random() * 100},
+      {text: inputText},
     ]);
     setText("");
     console.log(tasks)
